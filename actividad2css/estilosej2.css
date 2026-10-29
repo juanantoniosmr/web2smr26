@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.caja1{
+	margin: 2%;
+	padding: 15px;
+	width: 40%;
+	text-align: justify;
+	background-color: lightgoldenrodyellow;
+	border: 10px;
+	border: 10px solid gold;
+}
+.caja2{
+
+	margin: 2%;
+	padding: 20px;
+	float: left;
+	width: 40%;
+	text-align: justify;
+	background-color: lightgoldenrodyellow;
+	border: 10px;
+	border: 10px dashed;
+	border-width: 2px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 10px 10px 10px grey;
+}
+.caja3{
+	width: 40%;
+	margin: 2%;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.bola{
+	margin: 2%;
+	border: 10px solid black;
+	border-image-source: url("img/bola-100.png");
+	text-align: justify;
+}
+.pastilla{
+	border-width: 10;
+	margin: 2%;
+	border: 10px solid black;
+	border-image-source: url("img/pastilla.png");
+	border-image-slice: 20;
+	text-align: justify;
+}
